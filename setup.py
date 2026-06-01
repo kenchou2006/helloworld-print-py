@@ -21,7 +21,7 @@ CLASSIFIERS = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ] + [f"Programming Language :: Python :: 3.{v}" for v in range(7, 12)]
-PYTHON_REQUIRES = ">=3.7"
+PYTHON_REQUIRES = ">=3.11"
 
 setup(
     name=PACKAGE_NAME,
